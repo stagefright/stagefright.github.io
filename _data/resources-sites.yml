@@ -1,0 +1,25 @@
+- url: http://ladiesintech.com/
+  description: This site aims to help and encourage women to speak at tech conferences. A lot of the advice isn't gender specific though, this site is useful for everyone interested in speaking at tech conferences.
+  tags:
+    - women in tech
+    - general
+
+- url: http://seizetheroom.com/
+  author: Derek Featherstone
+  description: This site shares advice and experiences from Derek's many years speaking and teaching
+  tags:
+    - teaching
+    - general
+    - speaker tips
+
+- url: http://speaking.io/
+  author: Zach Holman
+  description: GitHub's Zach Holman shares his advice on how to become an accomplished public speaker
+  tags:
+    - general
+    - speaker tips
+
+- url: http://weareallaweso.me/
+  description: A motivational site for those looking to get into speaking, providing articles, blog posts and resources for curators
+  tags:
+    - general

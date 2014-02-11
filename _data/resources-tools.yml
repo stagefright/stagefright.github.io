@@ -1,0 +1,12 @@
+- name: onslyde
+  url: http://www.onslyde.com/
+  description: Online presentation creation software that facilitates realtime audience engagement.<br />Wesley Hales writes about it on Smashing Magazine - <a href="http://coding.smashingmagazine.com/2013/11/20/reinventing-the-tech-conference-experience/">Reinventing the Tech Conference Experience</a>
+  tags:
+    - slides
+    - presentation tools
+
+- name: Swipe
+  url: http://beta.swipe.to/
+  description: Beta online tool for creating presentations
+  tags:
+    - presentation tools

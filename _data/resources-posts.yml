@@ -1,0 +1,35 @@
+- name: Presentation Skills Considered Harmful
+  url: http://seriouspony.com/blog/2013/10/4/presentation-skills-considered-harmful
+  author: Kathy Sierra
+  description: Great post describing a new way to think about presentation skills and how typical approaches may actually be self defeating
+  tags:
+    - nerves
+    - presentation skills
+
+- name: The Best Advice on Public Speaking
+  url: http://ladiesintech.com/the-best-advice-on-public-speaking/
+  description: Established speakers share tips with ladiesintech.com
+  tags:
+    - speaker tips
+
+- name: Get Your Conference Talk Submission Accepted
+  url: http://opensource.com/life/14/1/get-your-conference-talk-submission-accepted
+  author: Ruth Suehle
+  description: Covers abstract writing and the process used to pick conference talks for linux.conf.au
+  tags:
+    - talk proposals
+
+- name: Speaking Tips from a Grizzled Speaker
+  url: http://www.joshholmes.com/blog/2014/01/17/speaking-tips-grizzled-speaker/
+  author: Josh Holmes
+  description: A collection of tips from Josh and a lot of his fellow speakers
+  tags:
+    - speaker tips
+
+- name: "Conference Prompts: Or How to Submit Proposals and Influence People"
+  url: http://www.noelrappin.com/railsrx/2014/1/18/conference-prompts-or-how-to-submit-proposals-and-influence-people
+  author: Noel Rappin
+  description: Includes advice on choosing your topics and submitting your talk proposal
+  tags:
+    - talk proposals
+    - topics

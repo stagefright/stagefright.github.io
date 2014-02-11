@@ -1,0 +1,55 @@
+---
+layout: master
+title: Resources
+---
+
+<h3>Resources</h3>
+
+<section class="resource-sections">
+
+<section id="posts">
+<h4>Online Articles / Blog Posts</h4>
+<ul>
+    {% for resource in site.data.resources-posts %}
+        {% include resource-output.html %}
+    {% endfor %}
+</ul>
+</section>
+
+<section id="sites">
+<h4>Websites</h4>
+<ul>
+    {% for resource in site.data.resources-sites %}
+        {% include resource-output.html %}
+    {% endfor %}
+</ul>
+</section>
+
+<section id="slides">
+<h4>Slideshows</h4>
+<ul>
+    {% for resource in site.data.resources-slides %}
+        {% include resource-output.html %}
+    {% endfor %}
+</ul>
+</section>
+
+<section id="books">
+<h4>Books</h4>
+<ul>
+    {% for resource in site.data.resources-books %}
+        {% include resource-output.html %}
+    {% endfor %}
+</ul>
+</section>
+
+<section id="tools">
+<h4>Useful tools</h4>
+<ul>
+    {% for resource in site.data.resources-tools %}
+        {% include resource-output.html %}
+    {% endfor %}
+</ul>
+</section>
+
+</section>

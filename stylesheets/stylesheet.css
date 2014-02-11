@@ -120,6 +120,10 @@ a {
 
 a:hover, a:focus {text-decoration: underline;}
 
+h1 a {
+  color: inherit;
+}
+
 footer a {
   color: #F2F2F2;
   text-decoration: underline;
@@ -254,6 +258,22 @@ form {
   padding: 20px;
 }
 
+
+/*******************************************************************************
+Custom Styles
+*******************************************************************************/
+.resource-sections ul {
+  list-style-position: outside;
+}
+.resource-sections li {
+  margin-bottom: 5px;
+}
+.resource-description {
+  margin-left: 10px;
+  display: block;
+  font-size: 0.8em;
+}
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
@@ -294,7 +314,20 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 50px 10px 10px 10px;
+}
+
+#header_wrap .nav {
+  padding: 0;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
 }
 
 #project_title {

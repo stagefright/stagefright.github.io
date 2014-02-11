@@ -1,0 +1,25 @@
+<li>
+    <span class="resource-title">
+    {% if resource.url %}
+        <a href="{{ resource.url}}">
+    {% endif %}
+
+    {% if resource.name %}
+        {{ resource.name }}
+    {% else if resource.url %}
+        {{ resource.url }}
+    {% endif %}
+
+    {% if resource.url %}
+        </a>
+    {% endif %}
+
+    {% if resource.author %}
+        by {{ resource.author }}
+    {% endif %}
+    </span>
+
+    <br />
+
+    <span class="resource-description">{{ resource.description }}</span>
+</li>
