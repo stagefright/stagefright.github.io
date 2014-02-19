@@ -1,0 +1,34 @@
+// ===========================================================
+// So Simple Theme
+// By: Michael Rose
+// ===========================================================
+
+// MIXINS =====================================================
+@import "variables";
+@import "mixins";
+@import "grid";
+
+// ROOT =======================================================
+// CSS Reset ==================================================
+@import "reset";
+// Site wide styles (html, body, global classes) ==============
+@import "site";
+
+// TYPOGRAPHY =================================================
+@import "typography";
+// Pygments Syntax highlighting ===============================
+@import "pygments";
+// Coderay Syntax highlighting ===============================
+@import "coderay";
+
+// ELEMENTS ===================================================
+// Figures, images, social media, other elements ==============
+@import "elements";
+// Font Awesome webfont icons =================================
+@import "font-awesome";
+// Standard form controls =====================================
+@import "forms";
+
+// LAYOUT =====================================================
+// Page level layout styles ===================================
+@import "page";
