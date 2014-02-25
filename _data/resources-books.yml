@@ -4,3 +4,17 @@
   description: Great collection of practical tips
   tags:
     - general
+
+- name: Slide:ology
+  url: http://www.amazon.com/slide-ology-Science-Creating-Presentations/dp/0596522347
+  author: Nancy Duarte
+  description: Advice on communicating well, especially visually
+  tags:
+    - general, slides
+
+- name: Presentation Zen
+  url: http://www.amazon.com/Presentation-Zen-Simple-Delivery-Edition/dp/0321811984
+  author: Garr Reynolds
+  description: How to give effective presentations, a wide range of topics
+  tags:
+    - general
