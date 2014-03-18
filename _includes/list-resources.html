@@ -2,7 +2,7 @@
 
 <ul class="tag-box inline">
 {% for tag in site.data.tags %}
-    <li><a href="/resources/{{ tag | replace: ' ', '-' }}">{{ tag }}</a></li>
+    <li><a href="/tags/{{ tag | replace: ' ', '-' }}">{{ tag }}</a></li>
 {% endfor %}
 </ul>
 
