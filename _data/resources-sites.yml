@@ -1,14 +1,12 @@
 - url: http://ladiesintech.com/
   description: This site aims to help and encourage women to speak at tech conferences. A lot of the advice isn't gender specific though, this site is useful for everyone interested in speaking at tech conferences.
   tags:
-    - women in tech
     - general
 
 - url: http://seizetheroom.com/
   author: Derek Featherstone
   description: This site shares advice and experiences from Derek's many years speaking and teaching
   tags:
-    - teaching
     - general
     - speaker tips
 

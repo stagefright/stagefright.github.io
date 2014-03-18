@@ -452,3 +452,17 @@ span + .entry-title {
 		color: $black;
 	}
 }
+
+// Resources
+// --------------------------------------------------
+.resource-item {
+    margin-bottom: 20px;
+
+    .tag-box a {
+        padding: 1px 4px;
+        border-bottom: none;
+        &:hover {
+            border-bottom: none;
+        }
+    }
+}

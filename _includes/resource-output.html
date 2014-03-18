@@ -1,4 +1,4 @@
-<li>
+<li class="resource-item">
     <span class="resource-title">
     {% if resource.url %}
         <a href="{{ resource.url}}">
@@ -22,4 +22,12 @@
     <br />
 
     <span class="resource-description">{{ resource.description }}</span>
+
+    <br />
+
+    <ul class="tag-box inline">
+        {% for tag in resource.tags %}
+            <li><a href="/resources/{{ tag }}">{{ tag }}</a></li>
+        {% endfor %}
+    </ul>
 </li>
