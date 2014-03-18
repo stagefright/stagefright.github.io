@@ -1,7 +1,7 @@
 stagefright.github.io
 =====================
 
-Website: [http://stagefright.github.io]
+Website: http://stagefright.github.io
 
 The idea behind this site is to collate all the good resources about public speaking so that anyone looking for advice can easily find it.
 
