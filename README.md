@@ -55,7 +55,7 @@ Useful links
 ------------
 
 For more information on GitHub Pages, Jekyll and Sass, checkout these links:
-- [http://pages.github.com/ GitHub Pages]
-- [http://jekyllrb.com/ Jekyll]
-- [https://help.github.com/articles/using-jekyll-with-pages Using Jekyll with GitHub Pages]
-- [http://sass-lang.com/ Sass: Syntactically Awesome Style Sheets]
+- [GitHub Pages](http://pages.github.com/)
+- [Jekyll](http://jekyllrb.com/)
+- [Using Jekyll with GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages)
+- [Sass: Syntactically Awesome Style Sheets](http://sass-lang.com/)
