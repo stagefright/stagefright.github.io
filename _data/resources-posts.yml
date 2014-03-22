@@ -22,7 +22,7 @@
 - name: Speaking Tips from a Grizzled Speaker
   url: http://www.joshholmes.com/blog/2014/01/17/speaking-tips-grizzled-speaker/
   author: Josh Holmes
-  description: A collection of tips from Josh and a lot of his fellow speakers
+  description: A collection of tips from Josh and some of his fellow speakers
   tags:
     - speaker tips
 
@@ -33,3 +33,10 @@
   tags:
     - talk proposals
     - talk topics
+
+- name: On Slide Decks
+  url: http://carouth.com/blog/2014/03/20/on-slide-decks/
+  author: Jeff Carouth
+  description: An interesting post discussing what makes a good slide deck, looking into the content, structure, design and overall desired outcome
+  tags:
+    - slides
