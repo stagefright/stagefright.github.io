@@ -17,7 +17,7 @@ body {
 	ul {
 		display: inline-block;
 		vertical-align: top;
-		margin: 0 0 50px;
+		margin: 0 0 10px;
 		padding: 4px 20px;
 		background-color: $black;
 		@include rounded(0 0 10px 10px);
@@ -146,9 +146,9 @@ body {
     -moz-animation-delay: .75s;
     -o-animation-delay: .75s;
     animation-delay: .75s;	
-	a { color: $black; }
 }
 .site-description {
+    color: $highlight-color;
 	margin-top: 0;
 	font-family: $alt-font;
 	@include font-rem(16);
@@ -217,6 +217,8 @@ span + .entry-title {
 	font-weight: 400;
 	line-height: 1;
 	letter-spacing: -3px;
+	margin-top: 30px;
+	margin-bottom: 20px;
 	a {
 		color: $black;
 		text-decoration: underline;
@@ -227,7 +229,7 @@ span + .entry-title {
 	}
 	@media only screen and (min-width: $large-mq) {
 		max-width: 800px;
-		@include font-rem(68);
+		@include font-rem(48);
 	}
 }
 .entry-wrapper {
@@ -284,7 +286,7 @@ span + .entry-title {
 	}
 }
 .entry-content {
-	max-width: 640px;
+    text-align: center;
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
@@ -301,6 +303,10 @@ span + .entry-title {
 			border-bottom-style: solid;
 		}
 	}
+}
+.entry-content-page {
+    max-width: 640px;
+    text-align: left;
 }
 .post-list {
 	li > a {
@@ -359,7 +365,7 @@ span + .entry-title {
 	overflow: hidden;
 	@include clearfix();
 	&.inline li {
-		float: left;
+		display: inline;
 		@include font-rem(14);
 		line-height: 2.5;
 	}
@@ -393,7 +399,7 @@ span + .entry-title {
 // --------------------------------------------------
 .footer-wrapper {
 	@include clearfix();
-	margin: 2em auto;
+	margin: 1em auto;
 	text-align: center;
 	font-family: $alt-font;
 	@include font-rem(14);
@@ -407,7 +413,7 @@ span + .entry-title {
 // Social Icons
 // --------------------------------------------------
 .social-icons {
-	margin: 1em 0 2em;
+	margin: 1em 0 0 0;
 	a {
 		padding: 4px 8px;
 		&:hover { color:$black; }
@@ -455,8 +461,21 @@ span + .entry-title {
 
 // Resources
 // --------------------------------------------------
+.resource-sections .section-title {
+    border: 1px dotted $subtle-text;
+	@include rounded(4px);
+}
+.resource-list {
+    padding: 0;
+    text-align: left;
+}
 .resource-item {
+	@include font-rem(16);
     margin-bottom: 20px;
+    margin-right: 15px;
+    display: inline-block;
+    max-width: 295px;
+    vertical-align: top;
 
     .tag-box a {
         padding: 1px 4px;
@@ -465,4 +484,8 @@ span + .entry-title {
             border-bottom: none;
         }
     }
+}
+.resource-title {
+	@include font-rem(18);
+    color: $subtle-text;
 }

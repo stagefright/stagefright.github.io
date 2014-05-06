@@ -11,40 +11,40 @@
 {% capture posts %}{% for resource in site.data.resources-posts %}{% if show-tag == 'all tags' or resource.tags contains show-tag %}{% include resource-output.html %}{% endif %}{% endfor %}{% endcapture %}
 {% unless posts == empty %}
 <section id="posts">
-<h3>Online Articles / Blog Posts</h3>
-<ul>{{ posts }}</ul>
+<h3 class="section-title">Online Articles / Blog Posts</h3>
+<ul class="resource-list">{{ posts }}</ul>
 </section>
 {% endunless %}
 
 {% capture sites %}{% for resource in site.data.resources-sites %}{% if show-tag == 'all tags' or resource.tags contains show-tag %}{% include resource-output.html %}{% endif %}{% endfor %}{% endcapture %}
 {% unless sites == empty %}
 <section id="sites">
-<h3>Websites</h3>
-<ul>{{ sites }}</ul>
+<h3 class="section-title">Websites</h3>
+<ul class="resource-list">{{ sites }}</ul>
 </section>
 {% endunless %}
 
 {% capture slides %}{% for resource in site.data.resources-slides %}{% if show-tag == 'all tags' or resource.tags contains show-tag %}{% include resource-output.html %}{% endif %}{% endfor %}{% endcapture %}
 {% unless slides == empty %}
 <section id="slides">
-<h3>Slideshows</h3>
-<ul>{{ slides }}</ul>
+<h3 class="section-title">Slideshows</h3>
+<ul class="resource-list">{{ slides }}</ul>
 </section>
 {% endunless %}
 
 {% capture books %}{% for resource in site.data.resources-books %}{% if show-tag == 'all tags' or resource.tags contains show-tag %}{% include resource-output.html %}{% endif %}{% endfor %}{% endcapture %}
 {% unless books == empty %}
 <section id="books">
-<h3>Books</h3>
-<ul>{{ books }}</ul>
+<h3 class="section-title">Books</h3>
+<ul class="resource-list">{{ books }}</ul>
 </section>
 {% endunless %}
 
 {% capture tools %}{% for resource in site.data.resources-tools %}{% if show-tag == 'all tags' or resource.tags contains show-tag %}{% include resource-output.html %}{% endif %}{% endfor %}{% endcapture %}
 {% unless tools == empty %}
 <section id="tools">
-<h3>Useful tools</h3>
-<ul>{{ tools }}</ul>
+<h3 class="section-title">Useful tools</h3>
+<ul class="resource-list">{{ tools }}</ul>
 </section>
 {% endunless %}
 
