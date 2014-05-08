@@ -40,3 +40,10 @@
   description: An interesting post discussing what makes a good slide deck, looking into the content, structure, design and overall desired outcome
   tags:
     - slides
+
+- name: Slide Design for Developers
+  url: http://zachholman.com/posts/slide-design-for-developers/
+  author: Zach Holman
+  description: Zach shares his tips on slide design following his well received GitHub presentation
+  tags:
+    - slides
