@@ -47,3 +47,13 @@
   description: Zach shares his tips on slide design following his well received GitHub presentation
   tags:
     - slides
+
+- name: Tips on Speaking
+  url: http://rosstuck.com/tips-on-speaking/
+  author: Ross Tuck
+  description: A great collection of tips covering the preperation and run up to your talk, being on stage, through to handling the questions and networking opportunities afterwards
+  tags:
+    - general
+    - speaker tips
+    - talk preparation
+    - talk proposals
