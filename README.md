@@ -35,6 +35,8 @@ To get started:
 Be aware that GitHub handles the removal of `./html` from the urls, so `/resources` will not work locally.
 Just add `./html` to the end to view the page locally
 
+It's based on the [So Simple theme](http://mmistakes.github.io/so-simple-theme/theme-setup/) by Michael Rose.
+
 ### Jekyll
 
 To get jekyll to watch for changes in your files and automatically update:
