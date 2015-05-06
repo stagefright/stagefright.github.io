@@ -23,3 +23,13 @@ contentclass: entry-content entry-content-page
 
 <hr />
 
+{% if site.owner.github %}
+<img src="/images/Octocat-64.png" title="Octocat" alt="Octocat" class="pull-right" />
+<p>
+    This project is open source on GitHub. If you have any links you'd like to add please
+    <a href="http://github.com/{{ site.owner.github }}" title="{{ site.owner.name}} on Github" target="_blank">
+        head over to GitHub
+    </a>
+    and create an issue or pull request.
+</p>
+{% endif %}
