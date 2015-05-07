@@ -27,7 +27,7 @@
 
     <ul class="tag-box inline">
         {% for tag in resource.tags %}
-            <li><a href="/resources/{{ tag }}">{{ tag }}</a></li>
+            <li><a href="/tags/{{ tag | replace: ' ', '-' }}">{{ tag }}</a></li>
         {% endfor %}
     </ul>
 </li>
