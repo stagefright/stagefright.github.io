@@ -57,3 +57,24 @@
     - speaker tips
     - talk preparation
     - talk proposals
+
+- name: Conference Prompts or How to Submit Proposals and Influence People
+  url: http://www.noelrappin.com/railsrx/2014/1/18/conference-prompts-or-how-to-submit-proposals-and-influence-people
+  author: Noel Rappin
+  description: How and why you should submit talks to conferences, from someone who's been on the other side of the submissions process
+  tags:
+    - talk proposals
+
+- name: Is Your Conference Proposal Good Enough?
+  url: http://rckbt.me/2014/01/conference-proposals/
+  author: Raquel Vélez
+  description: Some dos and don'ts to think about when putting together your conference proposal
+  tags:
+    - talk proposals
+
+- name: What You Need to Know About Speaking at Conferences
+  url: http://www.ashedryden.com/blog/what-you-need-to-know-about-speaking-at-conferences
+  author: Ashe Dryden
+  description: A great post covering pretty much everything you need to know about talk preparation and presenting, with some good tips and links to additional resources
+  tags:
+    - general
