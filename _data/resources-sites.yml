@@ -12,7 +12,7 @@
 
 - url: http://speaking.io/
   author: Zach Holman
-  description: GitHub's Zach Holman shares his advice on how to become an accomplished public speaker
+  description: Zach Holman shares his advice on how to become an accomplished public speaker
   tags:
     - general
     - speaker tips
@@ -32,4 +32,13 @@
 - url: http://helpmeabstract.com/
   description: This site offers you the chance to get feedback on your abstract from a number of well known established speakers. A great project aiming to encourage new speakers at development conferences.
   tags:
+    - talk proposals
+
+- url: http://trainingintheopen.com/speaker-training/
+  author: Emma Jane Westby
+  description: As an established speaker and skilled trainer, Emma Jane has some really great advice and resources on her site to help you prepare and deliver your talk. Check out <a href="http://trainingintheopen.com/speakers-checklist.html" title="The Speakers Checklist">The Speakers Checklist</a> in particular.
+  tags:
+    - general
+    - talk preperation
+    - presentation skills
     - talk proposals
